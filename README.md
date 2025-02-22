@@ -45,4 +45,4 @@ Our proposed venture aims to develop a social festival reservation application (
 
 # Contributions 🤝
 
-If you would like to contribute to this project, please create a fork and submit a pull request with your changes. We'd be happy to review your contributions! 🤗
+If you would like to contribute to this project, please create a fork and submit a pull request with your changes. We'd be happy to review your contributions! 🤗 a
