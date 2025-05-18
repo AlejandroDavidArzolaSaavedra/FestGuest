@@ -152,7 +152,7 @@ function createChatElement(chatKey, elementId, userEmail, isPrivate) {
     chatElement.classList.add('chat-box');
     chatElement.textContent = isPrivate ? getPrivateChatName(chatKey, userEmail) : chatKey;
     chatElement.addEventListener('click', () => {
-        window.location.href = `./../../../../src/pages/chat/chat.html?${isPrivate ? 'privatechat' : 'chatName'}=${chatKey}`;
+        window.location.href = `../../pages/chat/chat.html?${isPrivate ? 'privatechat' : 'chatName'}=${chatKey}`;
     });
     document.getElementById(elementId).appendChild(chatElement);
     if (isPrivate) {
