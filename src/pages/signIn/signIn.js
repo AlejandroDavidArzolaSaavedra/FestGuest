@@ -85,7 +85,7 @@ async function addUser(emailValue) {
     try {
         const db = getFirestore(app);
         const rol = "Buyer";
-        const photoPred = "./src/images/photoPred.png";
+        const photoPred = "https://alejandrodavidarzolasaavedra.github.io/images/photoPred.png";
         const userName = emailValue.split('@')[0]; 
         const docRef = await addDoc(collection(db, 'users'), {
             userEmail: emailValue,

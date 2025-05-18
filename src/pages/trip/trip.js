@@ -114,7 +114,7 @@ function createTransportCard(datos, typeDoc) {
 
     const chat = document.createElement('img');
     chat.classList.add("w-10","ml-2");
-    chat.setAttribute('src', './../../../src/images/icon-chat.png');
+    chat.setAttribute('src', 'https://alejandrodavidarzolasaavedra.github.io/images/icon-chat.png');
     chat.setAttribute('tabindex', '0');
 
     chat.addEventListener('click', function(){
