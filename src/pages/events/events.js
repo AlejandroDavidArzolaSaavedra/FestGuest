@@ -29,7 +29,7 @@ function setupSearch() {
 
 
 function searchEvents(city, country) {
-    const ACCESS_TOKEN = "KehcazRA-OcKZdoahdjRHouWqb1emiCBYGgIjZvc";
+    const ACCESS_TOKEN = "zEntWJYI6sPOY9Qs9_xwnL-2fFabXM4vmLxRwGS5";
     const headers = {
         "Authorization": `Bearer ${ACCESS_TOKEN}`,
         "Accept": "application/json"

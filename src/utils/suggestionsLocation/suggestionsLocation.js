@@ -1,7 +1,7 @@
 
 async function fetchPredictHQEvents(query) {
     const baseURL = "https://api.predicthq.com/v1/events";
-    const ACCESS_TOKEN = "85teJJYm88B97rIg_7DrHPmAZxmSr4H_mAWggarF";
+    const ACCESS_TOKEN = "zEntWJYI6sPOY9Qs9_xwnL-2fFabXM4vmLxRwGS5";
     const headers = {
         "Authorization": `Bearer ${ACCESS_TOKEN}`,
         "Accept": "application/json"
