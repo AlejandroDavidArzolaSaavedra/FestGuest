@@ -51,7 +51,6 @@ async function handleRegistroClick(event) {
             return;
         }
 
-        // Crear usuario con correo electrónico
         await createUserEmail(email, password);
         await sendMessageVerification();
         await addUser(email);

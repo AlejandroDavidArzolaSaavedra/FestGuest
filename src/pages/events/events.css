@@ -1,17 +1,16 @@
 .loader {
-    border: 8px solid #3B82F6; /* Cambia el color a tu gusto */
-    border-top: 8px solid #ffda07; /* Cambia el color a tu gusto */
+    border: 8px solid #3B82F6;
+    border-top: 8px solid #ffda07; 
     border-radius: 50%;
-    width: 80px; /* Cambia el tamaño a tu gusto */
-    height: 80px; /* Cambia el tamaño a tu gusto */
+    width: 80px; 
+    height: 80px; 
     animation: spin 2s linear infinite;
-  }
+}
   
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
   
 .mcui-checkbox,
 .mcui-radio {
@@ -24,6 +23,7 @@
   padding: 0.6em 0;
   box-sizing: border-box;
 }
+
 .mcui-checkbox input[type=checkbox],
 .mcui-checkbox input[type=radio],
 .mcui-radio input[type=checkbox],
@@ -34,6 +34,7 @@
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
+
 .mcui-checkbox input[type=checkbox] + div,
 .mcui-checkbox input[type=radio] + div,
 .mcui-radio input[type=checkbox] + div,
@@ -45,12 +46,14 @@
   border-radius: 2px;
   position: relative;
 }
+
 .mcui-checkbox input[type=checkbox] ~ div:last-child,
 .mcui-checkbox input[type=radio] ~ div:last-child,
 .mcui-radio input[type=checkbox] ~ div:last-child,
 .mcui-radio input[type=radio] ~ div:last-child {
   padding-left: 0.5em;
 }
+
 .mcui-checkbox input[type=radio] + div,
 .mcui-radio input[type=radio] + div {
   border-radius: 50%;
@@ -100,6 +103,7 @@
     stroke-dashoffset: 22.7713679002;
   }
 }
+
 @-webkit-keyframes dash-check {
   to {
     stroke-dashoffset: 0;

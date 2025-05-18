@@ -11,7 +11,6 @@ function initialize() {
   validacionFormulario();
 }
 
-
 function validacionFormulario() {
   document.getElementById('rutaForm').addEventListener('submit', function(event) {
     event.preventDefault();

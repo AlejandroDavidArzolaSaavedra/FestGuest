@@ -154,7 +154,6 @@ async function saveEventFirestore(evento) {
         console.error("Error adding document: ", error);
     });
 
-    //si añade uno nuevo, vuelve a cambiar la base de datos del conjunto de eventos
     localStorage.setItem('eventUpdated',"false")
 }
 
