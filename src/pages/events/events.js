@@ -158,7 +158,7 @@ async function saveEventFirestore(evento) {
 }
 
 function getRandomImageURL(category) {
-    const baseURL = 'https://alejandrodavidarzolasaavedra.github.io/images/categoriesEvents/';
+    const baseURL = 'https://alejandrodavidarzolasaavedra.github.io/FestGuest/images/categoriesEvents/';
 
     if (category in categoryImages) {
         const crypto = window.crypto || window.Crypto;
@@ -219,7 +219,7 @@ async function createEventCard(evento) {
         };
         localStorage.setItem('selectedEvent', JSON.stringify(selectedEventData));
         await saveEventFirestore(evento);
-        window.location.href = `https://alejandrodavidarzolasaavedra.github.io/pages/trip/trip.html?eventName=${encodeURIComponent(evento.title)}`;
+        window.location.href = `https://alejandrodavidarzolasaavedra.github.io/FestGuest/pages/trip/trip.html?eventName=${encodeURIComponent(evento.title)}`;
     }
     card.addEventListener('mouseenter', () => {
         card.classList.add('transform', 'scale-100', 'shadow-lg',"text-deco");
